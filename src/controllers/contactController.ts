@@ -30,7 +30,7 @@ export const putContact = async (req: Request, res: Response): Promise<void> => 
   const { name, email, age, image } = req.body;
 
   try {
-    const updatedContact = await contactRepo.updateContact(parseInt(id), name, email, age, image);
+    const updatedContact = await contactRepo.updateContact(name, email, age, image);
     res.json(updatedContact);
   } catch (error) {
     console.error(error);
