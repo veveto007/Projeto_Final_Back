@@ -7,18 +7,25 @@ A estrutura do projeto segue o padrão MVC, organizando os arquivos de acordo co
 
 • controllers          
 Contém os controladores que lidam com a lógica das rotas
+
 • helpers              
 Funções auxiliares, como validações
+
 • migrations           
 Arquivos de migrações para o banco de dados
+
 • models               
 Modelos que representam as entidades do banco de dados
+
 • repositories         
 Camada de acesso aos dados no banco (para persistência)
+
 • routes               
 Definição das rotas da API
+
 • config              
 Arquivo de configuração (ex: banco de dados)
+
 • server.ts            
 Arquivo principal do servidor
 
