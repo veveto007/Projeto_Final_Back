@@ -6,21 +6,21 @@ Este projeto é uma aplicação backend para gerenciar contatos de usuários, pe
 A estrutura do projeto segue o padrão MVC, organizando os arquivos de acordo com suas responsabilidades. Abaixo está a descrição das pastas e arquivos principais:
 
 • controllers          
-# Contém os controladores que lidam com a lógica das rotas
+Contém os controladores que lidam com a lógica das rotas
 • helpers              
-# Funções auxiliares, como validações
+Funções auxiliares, como validações
 • migrations           
-# Arquivos de migrações para o banco de dados
+Arquivos de migrações para o banco de dados
 • models               
-# Modelos que representam as entidades do banco de dados
+Modelos que representam as entidades do banco de dados
 • repositories         
-# Camada de acesso aos dados no banco (para persistência)
+Camada de acesso aos dados no banco (para persistência)
 • routes               
-# Definição das rotas da API
+Definição das rotas da API
 • config              
-# Arquivo de configuração (ex: banco de dados)
+Arquivo de configuração (ex: banco de dados)
 • server.ts            
-# Arquivo principal do servidor
+Arquivo principal do servidor
 
 ----------------------------------------------------------------------------------------------------------------
 
